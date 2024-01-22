@@ -14,18 +14,6 @@ a {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  counter-reset: number;
-}
-
-li {
-  float: left;
-}
-
-a {
   display: inline-block;
   padding-right: 48px;
 }
@@ -37,4 +25,24 @@ span::before {
   text-align: right;
   opacity: .75;
   font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  counter-reset: number;
+}
+
+li {
+  float: left;
+  transition: all 0.25s ease;
+}
+
+ul:hover li {
+  opacity: 0.4;
+  filter: blur(1px);
+}
+
+ul li:hover {
+  opacity: 1;
+  filter: blur(0px);
 }
