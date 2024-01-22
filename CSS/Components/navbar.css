@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #FFF;
+  font-family: 'Sometype Mono', monospace;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  top: 13px;
+  left: 540px;
+  position: fixed;
+  counter-reset: number;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: inline-block;
+}
+
+span::before {
+  counter-increment: number;
+  content: "0" counter(number);
+}
