@@ -1,3 +1,17 @@
 body {
   background-color: rgba(26, 25, 29, 0.95);
 }
+
+h1 {
+  color: #F9812A;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.titles {
+  padding-left: 100px;
+}
