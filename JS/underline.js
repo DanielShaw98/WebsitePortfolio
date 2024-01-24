@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function extend() {
     underline.style.transition = 'width 0.5s ease-in-out';
-    underline.style.width = '500px';
+    underline.style.width = '350px';
   }
 
   function revert() {
