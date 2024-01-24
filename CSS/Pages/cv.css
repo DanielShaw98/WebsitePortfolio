@@ -15,3 +15,12 @@ h1 {
 .titles {
   padding-left: 100px;
 }
+
+.head-shot {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+#red {
+  color: red;
+}
