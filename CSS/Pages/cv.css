@@ -17,10 +17,38 @@ h1 {
 }
 
 .head-shot {
-  padding-left: 100px;
-  padding-top: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }
 
-#red {
-  color: red;
+.head-shot-positioning {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.text-left {
+  width: 320px;
+  padding-left: 100px;
+  padding-top: 32px;
+}
+
+h3 {
+  color: #FFF;
+  font-family: "JetBrains Mono";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+p {
+  color: #FFF;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
 }
