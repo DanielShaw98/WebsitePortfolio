@@ -1,14 +1,37 @@
+// CV Underline
+
 document.addEventListener('DOMContentLoaded', function () {
-  const underline = document.querySelector('.underline');
+  const underlineCv = document.querySelector('.underline-cv');
 
   function extend() {
-    underline.style.transition = 'width 0.5s ease-in-out';
-    underline.style.width = '350px';
+    underlineCv.style.transition = 'width 0.5s ease-in-out';
+    underlineCv.style.width = '350px';
   }
 
   function revert() {
-    underline.style.transition = 'width 0.5s ease-in-out';
-    underline.style.width = '300px';
+    underlineCv.style.transition = 'width 0.5s ease-in-out';
+    underlineCv.style.width = '300px';
+  }
+
+    setTimeout(function () {
+      extend();
+      setTimeout(revert, 500);
+    }, 250);
+});
+
+// Projects Underline
+
+document.addEventListener('DOMContentLoaded', function () {
+  const underlineProjects = document.querySelector('.underline-projects');
+
+  function extend() {
+    underlineProjects.style.transition = 'width 0.5s ease-in-out';
+    underlineProjects.style.width = '600px';
+  }
+
+  function revert() {
+    underlineProjects.style.transition = 'width 0.5s ease-in-out';
+    underlineProjects.style.width = '550px';
   }
 
     setTimeout(function () {
