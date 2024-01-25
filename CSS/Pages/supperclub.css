@@ -18,7 +18,6 @@ h1 {
 }
 
 .text-left {
-  padding-left: 100px;
   padding-top: 32px;
 }
 
@@ -44,8 +43,8 @@ p {
 }
 
 .tags-left {
-  padding-left: 100px;
   padding-top: 32px;
+  width: 90%;
 }
 
 .screenshot {
@@ -69,5 +68,5 @@ p {
   width: 30%;
   height: 100vh;
   overflow-y: auto;
-  padding-right: 10%;
+  padding: 0 100px;
 }

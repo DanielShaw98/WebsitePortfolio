@@ -61,3 +61,24 @@ document.addEventListener('DOMContentLoaded', function () {
       setTimeout(revert, 500);
     }, 250);
 });
+
+// Vloyal Underline
+
+document.addEventListener('DOMContentLoaded', function () {
+  const underlineVloyal = document.querySelector('.underline-vloyal');
+
+  function extend() {
+    underlineVloyal.style.transition = 'width 0.5s ease-in-out';
+    underlineVloyal.style.width = '350px';
+  }
+
+  function revert() {
+    underlineVloyal.style.transition = 'width 0.5s ease-in-out';
+    underlineVloyal.style.width = '300px';
+  }
+
+    setTimeout(function () {
+      extend();
+      setTimeout(revert, 500);
+    }, 250);
+});
