@@ -25,14 +25,14 @@ h1 {
 
 .head-shot-positioning {
   padding-left: 150px;
-  padding-top: 50px;
+  padding-top: 40px;
   width: 320px;
 }
 
 .text-left {
   width: 320px;
   padding-left: 100px;
-  padding-top: 32px;
+  padding-top: 30px;
 }
 
 h3 {
@@ -43,6 +43,7 @@ h3 {
   font-weight: 400;
   line-height: normal;
   margin: 0;
+  padding-bottom: 1%
 }
 
 p {
@@ -67,5 +68,12 @@ iframe {
   left: 500px;
   width: 64%;
   height: 100%;
-  padding-bottom: 32px;
+}
+
+.technologies {
+  padding-top: 1%;
+}
+
+.tags {
+  padding-bottom: 1%;
 }
