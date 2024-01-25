@@ -39,3 +39,25 @@ document.addEventListener('DOMContentLoaded', function () {
       setTimeout(revert, 500);
     }, 250);
 });
+
+
+// SupperClub Underline
+
+document.addEventListener('DOMContentLoaded', function () {
+  const underlineSupperclub = document.querySelector('.underline-supperclub');
+
+  function extend() {
+    underlineSupperclub.style.transition = 'width 0.5s ease-in-out';
+    underlineSupperclub.style.width = '625px';
+  }
+
+  function revert() {
+    underlineSupperclub.style.transition = 'width 0.5s ease-in-out';
+    underlineSupperclub.style.width = '575px';
+  }
+
+    setTimeout(function () {
+      extend();
+      setTimeout(revert, 500);
+    }, 250);
+});
