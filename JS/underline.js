@@ -82,3 +82,24 @@ document.addEventListener('DOMContentLoaded', function () {
       setTimeout(revert, 500);
     }, 250);
 });
+
+// Contact Underline
+
+document.addEventListener('DOMContentLoaded', function () {
+  const underlineContact = document.querySelector('.underline-contact');
+
+  function extend() {
+    underlineContact.style.transition = 'width 0.5s ease-in-out';
+    underlineContact.style.width = '610px';
+  }
+
+  function revert() {
+    underlineContact.style.transition = 'width 0.5s ease-in-out';
+    underlineContact.style.width = '560px';
+  }
+
+    setTimeout(function () {
+      extend();
+      setTimeout(revert, 500);
+    }, 250);
+});
